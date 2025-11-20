@@ -20,7 +20,7 @@ yarn start:dev
 ## 📍 URLs Importantes
 
 - API: http://localhost:3000\
-- Documentação: http://localhost:3000/docs\
+- Documentação: http://localhost:3000/docs
 - Banco: PostgreSQL na porta 5432
 
 ## 🔐 Usuário Root (Admin)
