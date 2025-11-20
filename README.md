@@ -30,6 +30,6 @@ Senha: root123
 
 ## 🔒 Autenticação
 
-1.  Faça login em POST /auth/login\
+1.  Faça login em POST /auth/login
 2.  Use o token retornado como:\
     Authorization: Bearer `<token>`
