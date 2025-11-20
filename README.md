@@ -1,29 +1,31 @@
-Blog API
+📝 Blog API
+
 API completa para sistema de blog com autenticação e controle de acesso.
 
 🚀 Quick Start
-Com Docker (Recomendado)
-bash
+
+▶️ Com Docker (Recomendado)
+
 docker-compose up -d
-Local
-bash
+
+▶️ Local
+
 yarn install
 yarn start:dev
-📍 URLs
-API: http://localhost:3000
 
-Documentação: http://localhost:3000/docs
+📍 URLs Importantes
 
-Banco: PostgreSQL na porta 5432
+- API: http://localhost:3000
+- Documentação: http://localhost:3000/docs
+- Banco: PostgreSQL na porta 5432
 
-🔐 Usuário root
-Usuário Admin:
+🔐 Usuário Root (Admin)
 
 Email: root@admin.com
-
 Senha: root123
 
 🔒 Autenticação
-Faça login em POST /auth/login
 
-Use o token: Authorization: Bearer <token>
+1.  Faça login em POST /auth/login
+2.  Use o token retornado como:
+    Authorization: Bearer
