@@ -32,4 +32,4 @@ Senha: root123
 
 1.  Faça login em POST /auth/login\
 2.  Use o token retornado como:\
-    Authorization: Bearer `<token>`{=html}
+    Authorization: Bearer `<token>`
